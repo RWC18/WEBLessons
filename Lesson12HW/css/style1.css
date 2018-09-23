@@ -1,0 +1,390 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0px;
+}
+
+header {
+  background-color: rgba(0, 0, 20, 0.6);
+  width: 100%;
+  border-top: 6px solid blue;
+  padding: 25px 120px;
+  position: relative;
+}
+
+header h1 {
+  font: 28px cursive;
+  color: white;
+  display: inline-block;
+  background-color: rgba(0, 0, 200, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+header h1:hover {
+  background-color: #0000c8;
+  cursor: pointer;
+}
+
+header ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+header ul li {
+  font: 13px cursive;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  background-color: #0024FF;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  border-radius: 10px;
+}
+
+header .left {
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 60px;
+}
+
+header .left h2 {
+  font: 46px cursive;
+  color: white;
+}
+
+header .left p {
+  color: white;
+  font: 12px cursive;
+  margin-top: 10px;
+  line-height: 18px;
+  text-align: justify;
+}
+
+header .left button {
+  color: white;
+  background-color: #0024ff;
+  font: 13px cursive;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+header .left button:hover {
+  background-color: lightblue;
+  color: blue;
+}
+
+header .right {
+  vertical-align: middle;
+  display: inline-block;
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  background-image: url(../photo/logo.png);
+  background-position: center;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+body {
+  background-image: url("../photo/back.jpg");
+  padding: 15px 40px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 120%;
+}
+
+section {
+  margin-top: 25px;
+  width: 100%;
+  padding: 60px 120px;
+  text-align: center;
+  background-color: rgba(250, 0, 0, 0.3);
+  border: 1px solid red;
+  vertical-align: top;
+}
+
+section h2 {
+  font: 25px cursive;
+  color: white;
+  background-color: #4C0000;
+  padding: 15px;
+  margin: 15px auto;
+  display: block;
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+section .tr {
+  margin-top: 50px;
+}
+
+section .flash, section .arrow, section .legends, section .const {
+  width: 225px;
+  height: 300px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 20px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  vertical-align: top;
+}
+
+section .flash .box, section .arrow .box, section .legends .box, section .const .box {
+  width: 120px;
+  height: 120px;
+  background-color: #333;
+  margin: 20px auto;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+section .flash h3, section .arrow h3, section .legends h3, section .const h3 {
+  font: 32px cursive;
+  color: #333;
+  text-align: center;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+section .flash p, section .arrow p, section .legends p, section .const p {
+  font: 20px cursive;
+  color: #333;
+  text-align: center;
+  margin: 15px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+section .flash:hover, section .arrow:hover, section .legends:hover, section .const:hover {
+  background-color: #660000;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 25px 25px 50px black;
+  box-shadow: 25px 25px 50px black;
+  cursor: pointer;
+}
+
+section .flash:hover .box, section .arrow:hover .box, section .legends:hover .box, section .const:hover .box {
+  background-color: white;
+}
+
+section .flash:hover h3, section .flash:hover p, section .arrow:hover h3, section .arrow:hover p, section .legends:hover h3, section .legends:hover p, section .const:hover h3, section .const:hover p {
+  color: white;
+}
+
+section .const {
+  background-color: black;
+}
+
+section .const .box {
+  background-image: url("../photo/constlogo.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+section .const h3 {
+  font-size: 25px;
+}
+
+section .const p, section .const h3 {
+  color: white;
+}
+
+section .const:hover {
+  background-image: url("../photo/constback.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section .const:hover .box, section .const:hover h3, section .const:hover p {
+  display: none;
+}
+
+section .flash {
+  background-color: #700000;
+}
+
+section .flash .box {
+  background-image: url("../photo/flashlogo.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+section .flash p, section .flash h3 {
+  color: white;
+}
+
+section .flash:hover {
+  background-image: url("../photo/flashback.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section .flash:hover .box, section .flash:hover h3, section .flash:hover p {
+  display: none;
+}
+
+section .arrow {
+  background-color: #005819;
+}
+
+section .arrow .box {
+  background-image: url("../photo/arrowlogo.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+section .arrow p, section .arrow h3 {
+  color: white;
+}
+
+section .arrow:hover {
+  background-image: url("../photo/arrowback.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section .arrow:hover .box, section .arrow:hover h3, section .arrow:hover p {
+  display: none;
+}
+
+section .legends {
+  background-color: #031563;
+}
+
+section .legends .box {
+  background-image: url("../photo/legendlogo.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+section .legends p, section .legends h3 {
+  color: white;
+}
+
+section .legends:hover {
+  background-image: url("../photo/legendback.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section .legends:hover .box, section .legends:hover h3, section .legends:hover p {
+  display: none;
+}
+
+section .video {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  border: 5px solid red;
+}
+
+section .video iframe {
+  width: 290px;
+  height: 190px;
+}
+
+footer {
+  background-color: rgba(0, 0, 200, 0.6);
+  padding: 60px 120px;
+  width: 80%;
+  margin: 25px auto;
+  border: 2px solid blue;
+}
+
+footer .social {
+  width: 330px;
+  margin: auto;
+  font: 25px cursive;
+  color: white;
+  padding: 10px;
+  background-color: rgba(0, 0, 100, 0.8);
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+footer .social p {
+  font: 25px cursive;
+  color: white;
+  padding: 10px;
+  background-color: rgba(0, 0, 100, 0.8);
+  border-radius: 15px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+footer .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+footer .fa:hover {
+  opacity: 0.7;
+}
+
+footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+footer .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+footer .fa-youtube {
+  background: #bb0000;
+  color: white;
+}

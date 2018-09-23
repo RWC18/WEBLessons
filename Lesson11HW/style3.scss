@@ -1,0 +1,16 @@
+@import "media.scss";
+
+.box1{
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	@include media(smart){
+		background-color: red;
+	}
+	@include media(tablet){
+		background-color: lightgreen;
+	}
+	@include media(pc){
+		background-color: gold;
+	}
+}

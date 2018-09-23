@@ -1,0 +1,63 @@
+body{
+	background-image: url(images1/Vector-Abstract-Design-Background_th4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main{
+	background-image: url(img/f1083541fc3f46e6c79b36bb398a0965.jpg);
+	background-position: 75% 50%;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: 50% 70%;
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	border: 2px solid gray;
+	border-radius: 15px;
+	box-shadow: 10px 10px 50px red;
+	position: relative;
+}
+
+.main div{
+	position: absolute;
+	background-color: rgba(0,150,0,0.8);
+	width: 120px;
+	height: 120px;
+	border:3px solid green;
+	border-radius: 15px;
+	background-position: center;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.main div:hover{
+	z-index: 2;
+	background-color: rgb(0,150,0);
+}
+
+.box1{
+	left: 0px;
+	top: 0px;
+	background-image: url(images1/html5-advertising-platform-showcase-2-1024x1020.jpg);
+}
+
+.box2{
+	left: -35px;
+	top: 100px;
+	box-shadow: 25px 25px 25px gray;
+	background-image: url(images1/css3-logo.png);
+}
+
+.box4{
+	bottom: 0px;
+	left: 0px;
+	background-image: url(images1/php.png);
+}
+
+.box3{
+	bottom: 100px;
+	left: -35px;
+	box-shadow: 25px -25px 25px gray;
+	background-image: url(images1/learn-javascript.png);
+}

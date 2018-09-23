@@ -1,0 +1,34 @@
+@mixin name(){
+	width: 200px;
+	height: 150px;
+	background-color: yellow;
+	border: 5px solid red;
+	border-radius: 20px;
+	margin: 15px 35px;
+	display: inline-block;
+}
+.box1, .box2{
+	@include name();
+}
+
+.box3{
+	@include name();
+}
+
+@mixin Hakob($w,$h,$bc) {
+	width: $w;
+	height: $h;
+	background-color: $bc;
+	display: inline-block;
+	margin: 15px 35px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.box4{
+	@include Hakob(200px,200px,lime);
+}
+
+.box5{
+	@include Hakob(300px,300px,lightblue);
+}

@@ -1,0 +1,25 @@
+label{
+	display:block;
+}
+
+fieldset, input{
+	border:0.1px solid;
+	padding: 2px;
+	margin: 15px;
+}
+
+fieldset{
+	padding: 15px;
+}
+
+form{
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 25px auto;
+	width: 350px;
+}
+
+body{
+	background-image: url(img/pexels-photo-1148820.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}

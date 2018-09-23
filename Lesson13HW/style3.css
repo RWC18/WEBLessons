@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0px;
+  font-size: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 25px;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  text-align: center;
+  line-height: 200px;
+}
+
+.box1 {
+  background-color: lime;
+}
+
+.box2 {
+  background-color: yellow;
+}
+
+.box3 {
+  background-color: red;
+  color: white;
+}
+
+.box4 {
+  background-color: blue;
+  color: white;
+}
+
+.boxshow {
+  width: 300px;
+  height: 300px;
+  font-size: 80px;
+  text-align: center;
+  line-height: 300px;
+  text-shadow: 15px 15px 15px black;
+}

@@ -1,0 +1,14 @@
+.box1 {
+  width: 300px;
+  height: 150px;
+  border: 2px solid lime;
+  font-family: vivaldi, verdana, cursive;
+  margin: 20px auto auto; }
+
+.box2 {
+  width: 600px;
+  height: 200px;
+  border: 2px solid lime;
+  font-family: vivaldi, verdana, cursive;
+  margin: 20px auto;
+  background-color: #FF00DE; }

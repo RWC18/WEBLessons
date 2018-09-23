@@ -1,0 +1,55 @@
+label{
+	display:block;
+}
+
+fieldset, input, textarea{
+	border:0.1px solid;
+	padding: 2px;
+	
+}
+
+.checklabel{
+	display: inline;
+}
+.check{
+	margin: 5px;
+	margin-left: 98px;
+
+}
+.check1{
+	margin: 5px; 
+	margin-left: 50px;
+}
+
+fieldset{
+	padding: 15px;
+}
+
+fieldset legend{
+	color: #FF8A00;
+}
+
+form{
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 25px auto;
+	width: 350px;
+	padding: 10px;
+}
+
+body{
+	background-image: url(img/be0851c3d8f83da9052dfe95f2d7e525.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+input[type=radio]{
+	margin:10px;
+}
+
+textarea{
+	resize: vertical;
+	width: 100%;
+	height: 150px;
+	background-color: rgba(255, 255, 0, 0.5);
+}

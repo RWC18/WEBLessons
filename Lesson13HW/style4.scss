@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-sizing: border-box;
+	outline: 0px;
+	font-size: 0px;
+}
+
+body{
+	background-color: black;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+	width: 100px;
+	height: 100px;
+	transition: 1s;
+	position: absolute;
+	background: linear-gradient(45deg, #fb0094 ,#0000FF, #00ff00, #ffff00, #ff0000,#fb0094 ,#0000FF, #00ff00, #ffff00, #ff0000, #fb0094);
+	margin: 5px;
+	background-size: 800%;
+	animation: animate 80s linear infinite;
+	cursor: pointer;
+	filter: blur(5px);
+}
+
+@keyframes animate{
+	0%{
+		background-position: 0 0;
+	}
+	50%{
+		background-position: 800% 0;
+	}
+	100%{
+		background-position: 0 0;
+	}
+}
+
+.box1{
+	left: calc(50% - 50px);
+	top: calc(50% - 50px);
+	// bottom: calc(50% - 50px);
+	// right: calc(50% - 50px);
+}
+.box2{
+	left: calc(50% - 160px);
+	// top: calc(50% - 50px);
+	bottom: calc(50% - 60px);
+	// right: calc(50% - 50px);
+}
+.box3{
+	left: calc(50% - 50px);
+	top: calc(50% - 160px);
+	// bottom: calc(50% - 50px);
+	// right: calc(50% - 50px);
+}
+.box4{
+	// left: calc(50% - 50px);
+	top: calc(50% - 50px);
+	// bottom: calc(50% - 50px);
+	right: calc(50% - 170px);
+}
+
+.box5{
+	// left: calc(50% - 50px);
+	// top: calc(50% + 60px);
+	bottom: calc(50% - 170px);
+	right: calc(50% - 60px);
+}
+
+.box2cent{
+	margin-left: 200px;
+}

@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-size: 0px;
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: 2s;
+}
+
+a.class:hover{
+	text-decoration: overline underline;
+	font-size: 45px;
+	font-family: vivaldi;
+}
+a.class:active{
+	text-decoration: none;
+	font-size: 35px;
+}
+a:hover{
+	text-decoration: overline underline;
+	
+}
+
+.backimg{
+	background-image: url(img/pexels-photo-97077.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.backimg table{
+	color: black;
+	text-align: center;
+	font-size: 25px; 
+	margin: 25px auto;
+	background-color: white;
+	border-spacing: 10px;
+}
+
+.backimg table td{
+	background-color: #19AF2B;
+}
+
+.backimg table th{
+	background-color: #034912;
+	color: white;
+}
+
+.table44{
+	background-color: #25044D;
+	margin: 50px auto;
+	border-spacing: 10px;
+	text-align: center;
+}
+
+.table44 td{
+	background-color: #86007D;
+	padding: 10px;
+}
+
+.table64{
+	background-color: #00FF36;
+	color:black;
+	border-spacing: 10px;
+	text-align: center;
+	margin: 25px auto;
+}
+
+.table64 td{
+	background-color: #C7FF4E;
+	padding: 25px;
+	font-size: 30px;
+	transition: 0.7s;
+}
+
+.table64 td:hover{
+	background-color: #000000;
+	padding: 25px;
+	/*font-size: 75px;*/
+	color: lime;
+	transform: rotate3d(20,10,20,360deg);
+}
+
+.tableimg{
+	background-color: white;
+	transition: 1s;
+	border-spacing: 5px;
+	margin: 10px auto;
+	transition: 1s;
+	text-align: center;
+	
+}
+
+.tableimg img{
+	width: 210px;
+	height: 210px;
+}
+
+.tableimg td{
+	background-color: blue;
+	padding: 10px;
+	transition: 1s;
+}
+
+.tableimg td:hover{
+	background-color: red;
+	padding: 5px;
+	transform: rotate(360deg);
+}
+
+.box1{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	display: inline-block;
+	margin: 5px;
+	
+}
+
+.box2{
+	height: 200px;
+	width: 200px;
+	background-image: url(img/zoom.png);
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+		margin: 5px;
+	display: inline-block;
+}
+
+.box3{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+		margin: 5px;
+	display: inline-block;
+}
+
+.mainbox{
+	width: 1000px;
+	margin: 25px auto;
+	background-color: black;
+}

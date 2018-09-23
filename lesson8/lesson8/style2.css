@@ -1,0 +1,77 @@
+body{
+	background-image: url(img/images/1.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+div{
+	width: 200px;
+	height:  200px;
+	border: 2px solid blue;
+	box-shadow: 10px 10px 20px gray;
+	position: absolute;
+	transition: 1s;
+	background-size: 75% 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.box1{
+	top: 0px;
+	left: 0px;
+	background-color: lightblue;
+	background-image: url(img/images/browser.png);
+}
+.box2{
+	top: 100px;
+	left: 100px;
+	background-color: pink;
+	background-image: url(img/images/Ubuntu-icon.png);
+}
+.box3{
+	right: 0px;
+	top: 0px;
+	background-color: lime;
+	background-image: url(img/images/Tatice-Operating-Systems-Apple-Blue.ico);
+}
+.box4{
+	right: 100px;
+	top: 100px;
+	background-color: #195311;
+	background-image: url(img/images/images.jpg);
+}
+.box5{
+	left: calc(50% - 100px);
+	top: calc(50% - 100px);
+	background-color: gray;
+	background-image: url(img/images/images.jpg);
+}
+.box8{
+	left: 0px;
+	bottom: 0px;
+	background-color: #DB7070;
+	background-image: url(img/images/Iconshock-Real-Vista-Mobile-Android-platform.ico);
+}
+.box9{
+	left: 100px;
+	bottom: 100px;
+	background-color: #A91D1D;	
+	background-image: url(img/images/displaying-18-images-for-android-music-icon-png--27.png);
+}
+.box6{
+	right: 0px;
+	bottom: 0px;
+	background-color: orange;
+	background-image: url(img/images/chrome-256.png);
+}
+.box7{
+	right: 100px;
+	bottom: 100px;
+	background-color: gold;
+	background-image: url(img/images/linux1600.png);	
+}
+
+div:hover{
+	z-index: 1;
+	background-color: rgba(255,255,255,0.8);
+}

@@ -1,0 +1,10 @@
+@mixin media($media) {
+	@if $media == smart {
+		@media only screen and (max-width: 480px){@content;}
+	} @else if  $media == tablet{
+		@media only screen and (min-width: 480px) and (max-width: 1024px){@content;}
+	}
+	@else if  $media == pc{
+		@media only screen and (min-width: 1024px){@content;}
+	}
+}

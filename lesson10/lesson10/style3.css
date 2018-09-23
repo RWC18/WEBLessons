@@ -1,0 +1,35 @@
+.box1, .box2 {
+  width: 200px;
+  height: 150px;
+  background-color: yellow;
+  border: 5px solid red;
+  border-radius: 20px;
+  margin: 15px 35px;
+  display: inline-block; }
+
+.box3 {
+  width: 200px;
+  height: 150px;
+  background-color: yellow;
+  border: 5px solid red;
+  border-radius: 20px;
+  margin: 15px 35px;
+  display: inline-block; }
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: lime;
+  display: inline-block;
+  margin: 15px 35px;
+  border: 2px solid black;
+  border-radius: 50%; }
+
+.box5 {
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  display: inline-block;
+  margin: 15px 35px;
+  border: 2px solid black;
+  border-radius: 50%; }

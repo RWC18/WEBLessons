@@ -1,0 +1,219 @@
+*{
+	font-size: 0px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(img/back.jpg);
+	background-size: cover;
+}
+
+.header{
+	background-color: #3F4790;
+	width: 100%;
+	height: 75px;
+}
+
+.logo p{
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	margin: 15px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+	width: 48%;
+	display: inline-block;
+}
+
+.login{
+	width: 50%;
+	display: inline-block;
+	background-color: #3F4790;
+	height: 75px;
+	vertical-align: top;
+	margin-left: 25px;
+	padding: 5px;
+}
+
+.login form label{
+	font-size: 15px;
+	color: white;
+}
+.login input{
+	border:0.2px solid;
+	font-size: 15px;
+}
+
+.logpass{
+	width: 20%;
+	height: 75px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.logpass a{
+	color: #DBDBDB;
+	font-size: 12px;
+}
+
+.logpass h1{
+	font-size: 15px;
+	margin: 5px;
+}
+
+.logpass input{
+	width: 100%;
+}
+
+.login .submit input[type=submit]{
+	width: 50px;
+	font-size: 15px;
+	background-color: #3A3A80;
+	color: white;
+	border-color: black;
+}
+
+.login .submit{
+	width: 30%;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+	margin-top: 28px;
+}
+	
+.logpass .none{
+	color: transparent;
+}
+
+.content{
+	width: 100%;
+	height: 600px;
+	background-color: lightgray;
+}
+
+.left, .right{
+	display: inline-block;
+	width: 50%;
+	height: 600px;
+	
+}
+.right{
+	vertical-align: top; 
+	padding: 25px;
+}
+
+.right h1{
+	font-size: 35px; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.right h3{
+	font-size: 20px; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.left img{
+	display: block;
+	margin: 25px auto;
+	border:2px solid gray;
+}
+
+.right .name{
+	border: 1px solid gray;
+	font-size: 20px;
+	border-radius: 9px;
+	width: 200px;
+	height: 35px;
+	display: inline-block;
+	margin: 9px;
+}
+
+.right .mail, .pass{
+	border: 1px solid gray;
+	font-size: 20px;
+	border-radius: 9px;
+	width: 418px;
+	height: 35px;
+	display: block;
+	margin: 9px;
+}
+
+
+textarea:focus, input:focus, select:focus, option:focus{
+	outline: none;
+}
+
+
+.right option{
+	font-size: 15px;
+	
+}
+
+.right .month, .day, .year{
+	font-size: 15px;
+	border:1px solid gray;
+	margin:9px;
+	width: 68px;
+	height: 30px;
+}
+
+.right .day, .year{
+	margin:0px;
+}
+
+.right .month{
+	margin-right: 0px;
+}
+
+.right a{
+	color: #4141AC;
+	font-size: 12px;
+	width: 180px;
+	display: inline-block;
+	margin: 9px;	
+}
+
+.right .radio{
+	display: inline-block;
+	margin: 9px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.right .radiotxt{
+	font-size: 20px; 
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.right .sub{
+	font-size: 25px;
+	display: block;
+	margin: 25px;
+	background-color: #3B9B3B;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	border:1px double darkgreen;
+	transition: 1s;
+}
+
+.right .sub:hover{
+	background-color: rgba(0,153,0,0.5);
+	box-shadow: 15px 19px 5px grey;
+}

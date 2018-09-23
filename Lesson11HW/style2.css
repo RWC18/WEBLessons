@@ -1,0 +1,298 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #325F1E;
+  }
+  header {
+    background-color: black;
+    color: white;
+    width: 900px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+  }
+  header ul .menu {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: cursive;
+  }
+  header ul .main {
+    background-color: red;
+    padding: 25px 40px;
+    position: absolute;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    left: -100px;
+    top: -10px;
+    -webkit-box-shadow: 2px 5px 25px #7A7A7A;
+    box-shadow: 2px 5px 25px #7A7A7A;
+  }
+  header ul .home {
+    margin-left: 100px;
+  }
+  header ul .number {
+    margin-left: 5px;
+    color: red;
+  }
+  header ul .call {
+    margin-left: 150px;
+  }
+  .content {
+    margin: 55px auto;
+    color: #282323;
+    text-align: center;
+    width: 600px;
+  }
+  .content .txt1 p {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .content .txt2 {
+    width: 300px;
+    margin: 15px auto;
+  }
+  .content .txt2 p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .content .txt3 {
+    margin-top: 25px;
+  }
+  footer {
+    width: 600px;
+    color: #282323;
+    margin: 25px auto;
+  }
+  footer .headtxt {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+  }
+  footer ul .social {
+    list-style-type: none;
+    margin: 10px auto;
+    width: 250px;
+  }
+  footer ul .social img {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+  }
+  footer ul .social p {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  footer .copyright {
+    text-align: center;
+    color: red;
+    margin: 25px;
+    font-weight: bold;
+    font-family: vivaldi;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    background-color: #10B5FF;
+    font-family: cursive;
+  }
+  header {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+  }
+  header ul .menu {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    margin-left: 20px;
+    font-family: cursive;
+  }
+  header ul .main {
+    background-color: red;
+    padding: 20px 30px;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 0px;
+    left: -60px;
+    top: -10px;
+    -webkit-box-shadow: 2px 5px 25px #7A7A7A;
+    box-shadow: 2px 5px 25px #7A7A7A;
+  }
+  header ul .home {
+    margin-left: 70px;
+  }
+  header ul .number {
+    margin-left: 5px;
+    color: red;
+  }
+  header ul .call {
+    margin-left: 25px;
+  }
+  .content {
+    margin: 55px auto;
+    color: #282323;
+    text-align: center;
+    width: 80%;
+  }
+  .content .txt1 p {
+    font-size: 0px;
+    font-weight: bold;
+  }
+  .content .txt2 {
+    width: 300px;
+    margin: 15px auto;
+  }
+  .content .txt2 p {
+    font-size: 0px;
+    font-weight: bold;
+  }
+  .content .txt3 {
+    width: 60%;
+    margin: 25px auto;
+  }
+  footer {
+    width: 80%;
+    color: #282323;
+    margin: 25px auto;
+  }
+  footer .headtxt {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+  }
+  footer ul .social {
+    list-style-type: none;
+    margin: 10px auto;
+    width: 250px;
+  }
+  footer ul .social img {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+  }
+  footer ul .social p {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  footer .copyright {
+    text-align: center;
+    color: blue;
+    margin: 25px;
+    font-weight: bold;
+    font-family: vivaldi;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #F4CA8D;
+    font-family: cursive;
+  }
+  header {
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    position: relative;
+  }
+  header ul .menu {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 8px;
+    margin-left: 20px;
+    font-family: cursive;
+  }
+  header ul .main {
+    background-color: red;
+    padding: 20px 30px;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    left: -60px;
+    top: -10px;
+    -webkit-box-shadow: 2px 5px 25px #7A7A7A;
+    box-shadow: 2px 5px 25px #7A7A7A;
+  }
+  header ul .home {
+    margin-left: 70px;
+  }
+  header ul .number {
+    margin-left: 5px;
+    color: red;
+  }
+  header ul .call {
+    margin-left: 25px;
+  }
+  .content {
+    margin: 55px auto;
+    color: #282323;
+    text-align: center;
+    width: 80%;
+  }
+  .content .txt1 p {
+    font-size: 0px;
+    font-weight: bold;
+  }
+  .content .txt2 {
+    width: 300px;
+    margin: 15px auto;
+  }
+  .content .txt2 p {
+    font-size: 0px;
+    font-weight: bold;
+  }
+  .content .txt3 {
+    width: 60%;
+    margin: 25px auto;
+  }
+  footer {
+    width: 80%;
+    color: #282323;
+    margin: 25px auto;
+  }
+  footer .headtxt {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+  }
+  footer ul .social {
+    list-style-type: none;
+    margin: 10px auto;
+    width: 250px;
+  }
+  footer ul .social img {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    background-color: white;
+  }
+  footer ul .social p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0px;
+  }
+  footer .copyright {
+    text-align: center;
+    color: blue;
+    margin: 25px;
+    font-weight: bold;
+    font-family: vivaldi;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li {
+  font-size: 25px;
+  margin: 15px;
+  display: inline-block;
+  border: 2px solid lime;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  padding: 10px;
+  color: black;
+  background-color: lime;
+  cursor: crosshair;
+}
+
+ul li:hover {
+  background-color: black;
+  color: lime;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+ul li:active {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 200px 20px lime;
+  box-shadow: 0px 200px 20px lime;
+}
+
+ul li a {
+  text-decoration: none;
+}

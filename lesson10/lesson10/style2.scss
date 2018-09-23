@@ -1,0 +1,19 @@
+$x: 300px;
+$y: 2px solid lime;
+$f: vivaldi, verdana, cursive;
+$m: 20px auto;
+.box1{
+	width: $x;
+	height: 150px;
+	border: $y;
+	font-family: $f;
+	margin: $m auto;	
+}
+.box2{
+	width: $x*2;
+	height: 200px;
+	border: $y;
+	font-family: $f;
+	margin: $m;
+	background-color: #FF00DE;	
+}

@@ -1,0 +1,33 @@
+.box{
+	width: 0px;
+	height: 0px;
+	margin: 50px auto;
+	border: 100px solid rgba(0,0,0,0) ;
+	border-top-color: #00FFF7;
+	border-bottom-color: #00FF00;
+}
+.box1{
+	width: 0px;
+	height: 0px;
+	margin: 10px auto;
+	border-top:250px solid #00FFF7;
+	border-bottom:50px solid #00FF00;
+	border-left:100px solid #FFFF00;
+	border-right:  10px solid #B9FFFF;
+	border-radius: 25px;
+}
+
+.box2{
+	width: 300px;
+	height: 200px;
+	background: linear-gradient(45deg,#00FFFF,#3082ED,#0DFF52,#D0BFF4,#FFFF87,#FFC2DE);
+	margin: auto;
+	border-radius: 25px;
+	border:2px solid black;
+}
+
+
+body{
+	background: linear-gradient(to left,red,white,blue);
+	background-attachment: fixed;
+}

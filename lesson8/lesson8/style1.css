@@ -1,0 +1,77 @@
+body{
+	background-image: url(img/flashback.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 10%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.main{
+	width: 	500px;
+	height: 	500px;
+	background-color:  rgba(255,255,255,0.5);
+	margin: 100px auto;
+	position: 	relative;	
+}
+
+.box1{
+	width: 	200px;
+	height: 150px;
+	background-color: rgb(228,62,29);
+	position: 	relative;
+	top: -30px;
+	left: -30px;	
+	transition: 1s;
+}
+
+.box2{
+	width: 	200px;
+	height: 150px;
+	background-color: #F3F315;
+	position: 	absolute;
+	bottom: -30px;
+	right: -30px;
+	transition: 1s;	
+}
+
+.box1:hover, .box2:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+
+.box3:hover{
+	background-color: black;
+}
+.box1:hover{
+	box-shadow: -55px -55px 25px red;
+}
+.box2:hover{
+	box-shadow: 55px 55px 25px yellow;
+}
+
+.box3{
+	width: 80px;
+	height: 50px;
+	background-color: #FF0000;
+	border:2px solid yellow;
+	border-radius: 10px;
+	line-height: 50px;
+	text-align: center;
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	transition: 1s;
+}
+
+.main .txt{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	text-shadow: 5px 5px 15px red;
+	transition: 1s;
+}
+
+.main .txt:hover{
+	text-shadow: 15px 15px 25px yellow;
+	transform: scale(1.2);
+}

@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0px;
+  font-size: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  font-size: 25px;
+  margin: 15px auto;
+  display: block;
+  padding: 15px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+div {
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+.eyel, .eyer {
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+}
+
+.eyel .black, .eyer .black {
+  background-color: black;
+  width: 60px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 55px auto;
+}
+
+.eyel {
+  left: 0px;
+  top: 0px;
+}
+
+.eyer {
+  top: 0px;
+  right: 0px;
+}
+
+.body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFF000), color-stop(#D7A81F), to(#F9781F));
+  background: -webkit-linear-gradient(#FFF000, #D7A81F, #F9781F);
+  background: -o-linear-gradient(#FFF000, #D7A81F, #F9781F);
+  background: linear-gradient(#FFF000, #D7A81F, #F9781F);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border: 3px solid orange;
+}
+
+.smile {
+  width: 200px;
+  height: 200px;
+  border: 25px solid transparent;
+  border-radius: 50%;
+  border-bottom-color: red;
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+.eyelshow {
+  left: calc(50% - 110px);
+  top: calc(50% - 100px);
+}
+
+.eyershow {
+  right: calc(50% - 110px);
+  top: calc(50% - 100px);
+}
+
+.bodyshow {
+  left: calc(50% - 150px);
+  bottom: calc(50% - 170px);
+}
+
+.smileshow {
+  right: calc(50% - 100px);
+  bottom: calc(50% - 150px);
+}

@@ -1,0 +1,50 @@
+@import "media.scss";
+
+*{
+	border: 0px;
+	box-sizing: border-box;
+	font-size: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: lightgrey;
+}
+
+.header{
+	width: 100%;
+	background-color: aquamarine;
+	border: 2px solid black;
+	@include media(smart){
+		background-color: pink;
+	}
+	@include media(tablet){
+		background-color: darkblue;
+	}
+	ul{
+		text-align: center;
+		li{
+		font-size: 25px;
+		display: inline-block;
+		width: 150px;
+		background-color: rgba(50,0,25,.8);
+		padding: 20px 0px;
+		margin: 10px;
+		text-align: center;
+		font-family: cursive;
+		text-shadow: 15px 15px 25px white;
+		border: 2px solid black;
+		border-radius: 10px;
+			@include media(smart){
+				width: 45%;
+				margin: 2.5px;
+				background-color: rgba(200,0,0,.8)
+			}
+			@include media(tablet){
+				width: 30%;
+				margin: 5px;
+				background-color: rgba(0,0,255,.8)
+			}
+		} 
+	}
+}

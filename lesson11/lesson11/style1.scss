@@ -1,0 +1,24 @@
+body{
+	background-color: black;
+	.box{
+		width: 200px;
+		height: 200px;
+		background-color: lime;
+		border-radius: 10px;
+	}
+	@media only screen and (max-width: 480px){
+		.box{
+			width: 100%;
+			background-color: #7B0019;
+			border-radius: 0px;
+		}
+	}
+	@media only screen and (max-width: 1024px) and (min-width: 480px){
+		.box{
+			margin: 15px auto;
+			background-color: #7B0019;
+			border-radius: 50%;
+		}
+	}
+}
+

@@ -1,0 +1,321 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+	border: 0px;
+	box-sizing: border-box;
+	outline: 0px;
+}
+
+header{
+	background-color: rgba(0,0,20,.6);
+	width: 100%;
+	border-top: 6px solid blue;
+	padding: 25px 120px;
+	position: relative;
+	h1{
+		font:28px cursive;
+		color: white;
+		display: inline-block;
+		background-color: rgba(0,0,200,.3);
+		border-radius: 10px;
+		padding: 10px;
+		transition: 1s;
+		&:hover{
+			background-color: rgb(0,0,200);
+			cursor: pointer;
+		}
+
+	}
+	ul{
+		list-style-type: none;
+		display: inline-block;
+		margin-left: 100px;
+
+		li{
+			font: 13px cursive;
+			color: white;
+			display: inline-block;
+			margin: 10px;
+			text-transform: uppercase;
+			padding: 10px;
+			transition: 1s;
+			cursor: pointer;
+			&:hover{
+				background-color: #0024FF;
+				transform: scale(1.3);
+				border-radius: 10px;
+			}
+		}
+	}
+	.left{
+		width: 50%;
+		height: 200px;		
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0px 60px;
+		h2{
+			font:46px cursive;
+			color: white;
+		}
+		p{
+			color: white;
+			font: 12px cursive;
+			margin-top: 10px;
+			line-height: 18px;
+			text-align: justify;
+		}
+		button{
+			color: white;
+			background-color: #0024ff;
+			font: 13px cursive;
+			padding: 10px;
+			border-radius: 20px;
+			margin-top: 20px;
+			cursor: pointer;
+			transition: 1s;
+			&:hover{
+				background-color: lightblue;
+				color: blue;
+			}
+		}
+	}
+	.right{
+		vertical-align: middle;
+		display: inline-block;
+		width: 380px;
+		height: 380px;
+		background-color: white;
+		background-image: url(../photo/logo.png);
+		background-position: center;
+		background-size: 100% 100%;
+		border-radius: 50%;
+	}
+}
+
+body{
+	background-image: url("../photo/back.jpg");
+	padding: 15px 40px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 120%;
+}
+
+section{
+	margin-top: 25px;
+	width: 100%;
+	padding: 60px 120px;
+	text-align: center;
+	background-color: rgba(250,0,0,.3);
+	border:1px solid red;
+	vertical-align: top;
+	h2{
+		font:25px cursive;
+		color: white;
+		background-color: #4C0000;
+		padding: 15px;
+		margin: 15px auto;
+		display:  block;
+		width: 250px;
+		border-radius: 50%;
+		border: 2px solid white;
+	}
+	.tr{
+		margin-top: 50px;
+	}
+	.flash, .arrow, .legends, .const{
+		width: 225px;
+		height: 300px;
+		background-color: white;
+		display: inline-block;
+		margin-right: 20px;
+		transition: 1s;
+		vertical-align: top;
+		.box{
+			width: 120px;
+			height: 120px;
+			background-color: #333;
+			margin: 20px auto;
+			transition: 1s;
+		}
+		h3{
+			font:32px cursive;
+			color: #333;
+			text-align: center;
+			transition: 1s;
+		}
+		p{
+			font:20px cursive;
+			color: #333;
+			text-align: center;
+			margin: 15px;
+			transition: 1s;
+		}
+		&:hover{
+			background-color: rgb(102,0,0);
+			transform: scale(1.1);
+			box-shadow: 25px 25px 50px black;
+			cursor: pointer;
+			.box{
+				background-color: white;
+			}
+			h3,p{
+				color: white;
+			}
+		}
+	}
+	.const{
+		background-color:  black;
+		.box{
+			background-image: url("../photo/constlogo.jpg");
+			background-position: center;
+			background-size: 100% 100%;
+		}
+		h3{
+			font-size: 25px;
+		}
+		p, h3{
+			color: white;
+		}
+		&:hover{
+			background-image: url("../photo/constback.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			.box, h3, p{
+				display: none;
+			}
+		}
+	}
+	.flash{
+		background-color: #700000;
+		.box{
+			background-image: url("../photo/flashlogo.jpg");
+			background-position: center;
+			background-size: 100% 100%;
+		}
+		p, h3{
+			color: white;
+		}
+		&:hover{
+			background-image: url("../photo/flashback.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			.box, h3, p{
+				display: none;
+			}
+		}
+	}
+	.arrow{
+		background-color: #005819;
+		.box{
+			background-image: url("../photo/arrowlogo.jpg");
+			background-position: center;
+			background-size: 100% 100%;
+		}
+		p, h3{
+			color: white;
+		}
+		&:hover{
+			background-image: url("../photo/arrowback.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			.box, h3, p{
+				display: none;
+			}
+		}
+	}
+	.legends{
+		background-color: #031563;
+		.box{
+			background-image: url("../photo/legendlogo.jpg");
+			background-position: center;
+			background-size: 100% 100%;
+		}
+		p, h3{
+			color: white;
+		}
+		&:hover{
+			background-image: url("../photo/legendback.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			.box, h3, p{
+				display: none;
+			}
+		}
+	}
+	.video{
+		width: 300px;
+		height: 200px;
+		background-color: black;
+		display: inline-block;
+		margin: 15px;
+		vertical-align: top;
+		border: 5px solid red;
+		iframe{
+			width: 290px;
+			height: 190px;
+		}
+	}
+}
+
+footer{
+	background-color: rgba(0,0,200,.6);
+	padding: 60px 120px;
+	width: 	80%;
+	margin: 25px auto;
+	border: 2px solid blue;
+	.social{
+		width: 	330px;
+		margin: auto;
+		font: 25px cursive;
+		color: white;
+		padding: 10px;
+		background-color: rgba(0,0,100,.8);
+		border-radius: 15px;
+		border: 2px solid white;
+		p{
+		font: 25px cursive;
+		color: white;
+		padding: 10px;
+		background-color: rgba(0,0,100,.8);
+		border-radius: 15px;
+		border: 2px solid white;
+		text-align: center;	
+		}
+	}
+	.fa {
+		padding: 15px;
+		font-size: 30px;
+	 	width: 60px;
+	 	height: 60px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 5px;
+		border-radius: 50%;
+		display: inline-block;
+		&:hover {
+    		opacity: 0.7;
+		}
+	}
+	.fa-facebook {
+  		background: #3B5998;
+  		color: white;
+	}
+	.fa-twitter {
+		background: #55ACEE;
+		color: white;
+	}
+	.fa-google {
+		background: #dd4b39;
+		color: white;
+	}
+	.fa-youtube {
+		background: #bb0000;
+		color: white;
+	}
+}

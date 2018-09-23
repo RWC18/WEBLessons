@@ -1,0 +1,115 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-sizing: border-box;
+	outline: 0px;
+	font-size: 0px;
+}
+
+body{
+	background-color: black;
+}
+
+button{
+	width: 100px;
+	padding: 15px;
+	background-color: magenta;
+	color: black;
+	font:bold 20px cursive;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 2px solid white;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	transition: 1s;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: lime;
+	transition: 2s;
+}
+.box1{
+	width: 100px;
+	height: 100px;
+	background-color: lime;
+	transition: 2s;
+	position: absolute;
+	right: 0px;
+	top: 100px;
+}
+
+.box2, .box3{
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	transition: 2s;
+	position: absolute;
+	left: calc(50% - 50px);
+	top: 100px;
+}
+
+.box4{
+	// display: none;
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	transition: 2s;
+	position: absolute;
+	top: 100px;
+	right: calc(50% - 50px);
+
+
+}
+
+.show{
+	background-color: magenta;
+	border-radius: 50%;
+	margin-top: 300px;
+	margin-left: 500px;
+	box-shadow: 15px 15px 25px white;
+}
+.show1{
+	background-color: magenta;
+	border-radius: 50%;
+	top: 380px;
+	right: 500px;
+	box-shadow: 15px 15px 25px white;
+}
+.show2{
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-top-color: yellow;
+	border-bottom-color: orange;
+	background-color: transparent;
+	margin-top: 300px;
+}
+.show3{
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-top-color: yellow;
+	border-bottom-color: orange;
+	background-color: transparent;
+	left: 0px;
+}
+.show4{
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-top-color: yellow;
+	border-bottom-color: orange;
+	background-color: transparent;
+	right: 0px;
+	top: 100px;
+	display: block;
+
+}
+
+.click{
+	border-radius: 0px;
+}

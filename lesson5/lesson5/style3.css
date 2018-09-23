@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: 2s;
+}
+
+a.class:hover{
+	text-decoration: overline underline;
+	font-size: 45px;
+	font-family: vivaldi;
+}
+a.class:active{
+	text-decoration: none;
+	font-size: 35px;
+}
+a:hover{
+	text-decoration: overline underline;
+	
+}
+
+
+
+.top{
+	margin:25px auto;
+	width: 800px;
+	height: 75px;
+	background-color: red;
+}
+.content{
+	width: 500px;
+	height: 400px;
+	background-color: yellow;
+	float: left;
+	margin-left: 320px;
+}
+
+.side{
+	width: 280px;
+	height: 400px;
+	background-color: green;
+	margin-left: 840px;
+}
+
+.bottom{
+	margin:25px auto;
+	width: 800px;
+	height: 75px;
+	background-color: red;
+}
+
+
+
+
+
+
