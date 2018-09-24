@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0px;
+  font-size: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.head {
+  background-color: purple;
+  height: 100px;
+  position: relative;
+}
+
+.head .men {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(purple), to(black));
+  background: -webkit-linear-gradient(black, purple, black);
+  background: -o-linear-gradient(black, purple, black);
+  background: linear-gradient(black, purple, black);
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .head .men {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .head .men {
+    display: block;
+  }
+}
+
+.menu {
+  text-align: center;
+  margin: auto;
+}
+
+.menu .menclick {
+  display: inline-block;
+}
+
+.menu li {
+  font-size: 30px;
+  padding: 3px;
+  color: white;
+  border: 2px solid white;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  background-color: purple;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .menu li {
+    width: 90%;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .menu li {
+    width: 90%;
+    display: none;
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+.content img {
+  margin: 25px;
+  width: 400px;
+  height: 400px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .content img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .content img {
+    width: 150px;
+    height: 150px;
+  }
+}
